@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(to right, #05386B, #5CDB95);
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Gotham Gothic, sans-serif;
+    padding-bottom: 42px;
+}
+img {
+    color: rgba(255, 255, 255, 0.75);
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+}
+a {
+    color: rgba(255, 255, 255, 0.5);
+}
+p {
+    text-align: center;
+    color: white;
+    font-family: Gotham Gothic, sans-serif;
+    font-size: normal;
+}
+.description {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Gotham Gothic, sans-serif;
+    font-size: normal;
+}
+section {
+    display: table;
+    clear: both;
+    align-content: center;
+    background-color: #05386B;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+button {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #C0C0C0;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 42px;
+    border: 2px solid red transparent;
+    box-shadow: 0 -5px 4px #FFF, 0 -5px 20px #3500D3, 0 -5px 40px #05386B;
+    width: 25%;
+    outline: none;
+    cursor: pointer;
+}
+button:hover {
+    z-index: 10;
+    opacity: 0.9;
+    transform: scale(1.1);
+    transition: 0.15s ease-in-out;
+    box-shadow: 0px 0px 3px 3px white;
+}
